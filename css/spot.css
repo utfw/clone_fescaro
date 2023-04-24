@@ -1,0 +1,31 @@
+.main_visual{overflow: hidden;position: relative;width: 100%;height: 100vh;}
+.spot{position: absolute;top: 0;left: 0;width: 100%;height: 100vh;background: #eee url(../images/sub_visual_contact.jpg) no-repeat 50% 0;background-size: cover;transition: all 2.5s linear;}
+
+.main_visual .txt{opacity: 0;overflow: hidden;position: fixed;top: 50%;left:50%;width: 100%;text-align: center;transition: all 1s linear .3s;transform: translate(-50%,-50%);}
+#container .txt h2{overflow: hidden;font-size: 7rem;}
+.txt>p{overflow: hidden; font-size: 1.4em;font-weight: 600;color: #fff;}
+.main_visual .txt.on {opacity: 1;}
+
+.main_visual .txt h2.char>span>span{display: inline-block;transform: translateY(150%);line-height: 2;transition: all .5s ease ;}
+#wrap.active .main_visual .txt h2.char>span>span{transform: translateY(0%);}
+.main_visual .txt p.char>span{display: inline-block; transform: translateY(300%);transition: all .5s ease ;}
+#wrap.active .main_visual .txt p.char>span{transform: translateY(0%);}
+
+@keyframes up {
+  0%{transform: translateY(100%);opacity: 0;}
+  100%{transform: translateY(0%);opacity: 1;}
+}
+/* sub menu */
+.menu_wrap{z-index: 10;position: absolute;bottom: 0;width: 100%;transition: all .5s linear;transform: translateY(100%);}
+#wrap.active .menu_wrap{opacity: 1;transform: translateY(0%);}
+
+.menu_wrap.fix{position: fixed;left: 0;top: 0;height: 80px;}
+
+.menu_title>p{display: none;}
+ul.menu{display: flex;justify-content:space-between;align-items: center;z-index: 11;width: 100%;height: 80px;box-sizing: border-box;background: #fff;}
+ul.menu.on_top{border-bottom: 1px solid #ddd;}
+#container ul.menu>li{flex: 1;position: relative;height: 100%;}
+#container ul.menu>li>a{display: block;line-height: 80px;font-size: 17px;color: #333;text-align: center;transition: all .3s linear 0s;}
+#container ul.menu>li>a.on,#container>ul.menu>li>a:hover{color: #00AFEB;}
+#container ul.menu>li>a::after{content: "";position: absolute;left: 50%;bottom: 0;width: 0;height: 2px;background: #00AFEB;transition: all .3s linear 0s;}
+#container ul.menu>li>a:hover::after,#container ul.menu>li>a.on::after{left: 0;width: 100%;}

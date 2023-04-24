@@ -1,0 +1,50 @@
+/* Nanum Gothic */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* Montserrat */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* s-core_dream */
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 100;
+  src: url(../font/S-Core_Dream_OTF/SCDream1.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 200;
+  src: url(../font/S-Core_Dream_OTF/SCDream2.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 300;
+  src: url(../font/S-Core_Dream_OTF/SCDream3.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 400;
+  src: url(../font/S-Core_Dream_OTF/SCDream4.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 500;
+  src: url(../font/S-Core_Dream_OTF/SCDream5.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 600;
+  src: url(../font/S-Core_Dream_OTF/SCDream6.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 700;
+  src: url(../font/S-Core_Dream_OTF/SCDream7.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 800;
+  src: url(../font/S-Core_Dream_OTF/SCDream8.otf);
+}
+@font-face {
+  font-family: s-core_dream;
+  font-weight: 900;
+  src: url(../font/S-Core_Dream_OTF/SCDream9.otf);
+}

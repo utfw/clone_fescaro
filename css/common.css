@@ -1,0 +1,28 @@
+/* reset.css */
+@import url(../css/reset.css);
+/* header.css */
+@import url(../css/header.css);
+/* footer.css */
+@import url(../css/footer.css);
+/* btns */
+@import url(../css/btns.css);
+/* scroll_down.css */
+@import url(../css/scroll_down.css);
+/* font.css */
+@import url(../css/font.css);
+
+/* common */
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+html{font-size: .54vw}
+:root{
+ --font-family:
+ 'Montserrat', 's-core_dream', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;
+}
+body{font-family: var(--font-family);color: #333;font-size: 1.4rem;}
+a{font-weight: 600;text-decoration: none;}

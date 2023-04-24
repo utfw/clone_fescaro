@@ -1,0 +1,88 @@
+/* spot.css */
+@import url(../css/spot.css);
+/* common.css */
+@import url(../css/import.css);
+
+/* sub1.css */
+.btns{right: 2rem;}
+/* container */
+/* content */
+.content_wrap{margin: 0 30px;padding-bottom: 100px;border-bottom: 1px solid #eee;box-sizing: border-box;}
+
+.txt_box{width: 100%;margin-bottom: 80px;}
+.txt>h2{color: #fff;font-weight: 700;}
+.txt_box h3{margin: 140px 0 80px;font-weight: 700;font-size: 4rem;color: #000;letter-spacing: -1px;text-align: center;}
+.txt_box p{color: #000;font-size: 4rem;font-weight: 600;text-align: center;letter-spacing: -0.075em;}
+.txt_box strong{color: #00AFEB;font-weight: 600;}
+/* form */
+.form_top{width: 100%;}
+.form_top::after{content: "";display: block;clear: both;}
+.form_top .form_left{float: left;width: 48%;}
+.form_top .form_right{float: right;width: 48%;}
+
+.form_wrap{width: 80%;min-width: 1490px; margin: 0 auto;padding: 14rem 25rem;box-sizing: border-box;background: #f7f7f7;letter-spacing: -1px;}
+.form_wrap label{display: block;font-size: 2rem;font-weight: 700;color: #000;}
+.form_wrap input{font-size: 1.4rem;font-weight: 400;font-family: var(--font-family);}
+.form_wrap span{color: red;}
+.form_wrap input{display: block;width: 100%;height: 50px;padding-left: 16px;margin: 20px 0;box-sizing: border-box;border: 1px solid #d1d1d1;
+;letter-spacing: -1px;}
+.form_wrap textarea{width: 100%;height: 17rem; padding: 16px;margin: 20px 0;box-sizing: border-box;border: 1px solid #d1d1d1;font-family: var(--font-family);letter-spacing: -.5px;resize: none;}
+.form_wrap .politics h4{font-size: 2.2rem;font-weight: 700;color: #000;}
+#container .form_wrap .txt{overflow-y: scroll;height: 17rem;margin: 20px 0;padding: 16px;border: 1px solid #d1d1d1;background: #fff;box-sizing: border-box;}
+#container .form_wrap .txt p,.txt li{line-height: 2.5;font-size: 1.5rem;font-weight: normal;color: #717171;letter-spacing: 0;}
+#container .form_wrap .form_wrap p{text-align: left;font-weight: normal;color: #717171;letter-spacing: 0;}
+.form_wrap .box_wrap{display: flex;align-items: center;justify-content: center;margin: 40px 0;}
+.form_wrap .box_wrap input{width: 24px;height: 24px;margin-right: 10px;border-radius: 0;border: 1px solid #000;}
+.form_wrap input[type="checkbox"]{display: none;}
+
+.form_wrap .agree{display: flex;align-items: center;position: relative;text-align: center;font-size: 1.4rem;font-weight: normal;color: #555;cursor: pointer;}
+.form_wrap .agree::before{content: "";display: block;width: 20px;height: 20px;margin-right: 10px;background: #fff;border: 2px solid #555;}
+.form_wrap .agree:hover::before,.form_wrap .agree.on::before{border-color: red;}
+.form_wrap .agree .check{content: "";opacity: 0;display: block;position: absolute;top: 2px;left: 2px;width: 20px;font-size: 20px;line-height: 20px;color: red;}
+.form_wrap .agree.on .check{opacity: 1;}
+.form_wrap input[type="submit"]{margin: 50px auto 0;padding: 0;width: 28%;height: auto;border: none;background: #333;font-size: 2rem;font-weight: 600;color: #fff;line-height: 3.5;}
+/* //pc */
+
+/* 반응형 */
+/* 1820 */
+@media screen and (max-width: 1820px) {
+  html{font-size: .6vw;}
+  /* header */
+  #header .header_inner{padding: 0 32px;}
+  /* footer */
+  #footer{padding-left: 30px;padding-right: 30px;}
+  .footer_right{width: 70%;}
+}
+/* 1550 */
+@media screen and (max-width: 1550px) {
+  .form_wrap{width: auto;min-width: 0;}
+}
+
+/* 1270 */
+@media screen and (max-width: 1270px) {
+  .form_wrap{display: flex;justify-content: center;padding: 10.5rem 30px;}
+}
+
+/* 800 */
+@media screen and (max-width: 800px) {
+  html{font-size: 1.2vw;}
+  body{font-size: .8rem;}
+  /* form */
+  .form_wrap{padding: 12rem 40px;}
+  .form_top .form_left,.form_top .form_right{float: none;width: 100%;}
+  .form_wrap .agree{font-size: 1.5rem;}
+  .form_wrap input[type="submit"]{width: auto;margin: 0 auto;padding: 0 40px;font-size: 1.6rem;line-height: 2.8;}
+}
+
+/* 480 */
+@media screen and (max-width: 480px) {
+  html{font-size: 1.8vw;}
+  .btns{right: 16px;}
+  /* header */
+  /* container */
+  #container .txt h2{font-size: 8rem;}
+  /* form */
+  .form_wrap{padding: 12rem 3rem;}
+  .form_wrap label{font-size: 2.2rem;}
+  .form_wrap input{font-size: 1.6rem;}
+}
