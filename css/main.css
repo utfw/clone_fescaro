@@ -206,7 +206,7 @@ input#agree{display: none;width: 20px;}
   /* header */
   .gnb>.gnb_inner>ul>li{width: 9rem;}
   .gnb.on>.gnb_inner>ul>li{width: 10rem;}
-  .gnb>.gnb_inner>ul>li h3 a{font-size: .8rem;}
+  .gnb>.gnb_inner>ul>li a.menu_name{font-size: .8rem;}
   .gnb_inner li a{font-size: 1rem;}
   /* container  */
   #container h2{font-size: 3.6rem;font-weight: 700;}
