@@ -16,7 +16,7 @@ p,i{color: #fff;}
 #container{overflow: hidden;position: relative;}
 #container h2{margin-bottom: 30px;font-size: 60px;font-weight: bold;color: #fff;}
 #container p{font-size: 1.9rem;}
-#container video{position: relative;z-index: -1;width: 100vw;height: 100%;object-fit: cover;filter: blur(.7);}
+#container video{position: relative;z-index: -1;width: 100vw;height: 100%;object-fit: cover;filter: blur(1px);}
 
 /* section */
 .char>span{overflow: hidden;display: block;}
@@ -92,7 +92,7 @@ section.active .more{opacity: 1;animation: up .6s ease 0s;}
 .swiper-wrapper .swiper-slide.banner.on a{filter: brightness(1);}
 .swiper-wrapper .swiper-slide.banner a{display: block;width: 34rem;max-width: 340px;height: calc(34rem * 1.44);max-height: 490px;background-size: cover;transition: all .3s linear .1s;filter: brightness(.4);}
 
-.banner a:hover{scale: 1.1;}
+.banner a:hover{transform: scale(1.1);}
 .banner a.banner1{background: url(../images/main_business_img_01.jpg) no-repeat 0 0;}
 .banner a.banner2{background: url(../images/main_business_img_02.jpg) no-repeat 0 0;}
 .banner a.banner3{background: url(../images/main_business_img_03.jpg) no-repeat 0 0;}
@@ -101,7 +101,7 @@ section.active .more{opacity: 1;animation: up .6s ease 0s;}
 .banner2 .txt_box,.banner4 .txt_box{top: auto;bottom: 50px;}
 
 /* .content3 */
-.content3 video{filter: brightness(.95);}
+#container .content3 video{filter: brightness(.95) blur(1px);}
 #container .content3_inner h2,#container .content3_inner dd{color: #000;}
 .content3_inner p,.content3_inner dt{color: #333;}
 .content3_inner>ul{display: flex;margin: 0 auto;padding: 60px 28rem;}
