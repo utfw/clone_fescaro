@@ -59,7 +59,7 @@ tbody tr:first-of-type{padding-top: 20px;}
 tbody tr:last-of-type{padding-bottom: 20px;}
 td{width: 100px;line-height: 3;font-size: 15px}
 th:nth-of-type(2),td:nth-of-type(2){flex: 1;}
-tr:last-of-type td{flex: 1;color: #777;}
+/* tr:last-of-type td{flex: 1;color: #777;} */
 
 .pages{margin: 30px 0;}
 .pages ul{display: flex;justify-content: center;}
