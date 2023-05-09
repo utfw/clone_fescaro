@@ -237,7 +237,6 @@ input#agree{display: none;width: 20px;}
   /* footer */
   #footer{position: relative;width: 100%;padding: 5rem 30px 3rem;box-sizing: border-box;font-size: 1rem;}
   .footer_left{width: auto;}
-  .footer_left dt{width: 5rem;}
   .footer_right{padding-left: 0;}
 }
 
