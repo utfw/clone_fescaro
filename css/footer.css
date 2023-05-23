@@ -22,10 +22,10 @@
 .footer_right>ul>li{flex: 1;position: relative;width: 100%;padding-right: 4rem;color: #000;}
 .footer_right>ul>li a{display: block;padding-bottom: 10px;}
 #footer .footer_right>ul>li>a{font-weight: 700;color: #333;}
-#footer .footer_right>ul>li>ul a{font-weight: 400;color: #999;}
+#footer .footer_right>ul>li>ul a{font-weight: 400;color: #363636;}
 #footer .footer_right>ul>li>ul a:hover{color: #00AFEB;}
 .footer_bottom{display: flex;justify-content: space-between;padding: 30px 0;}
 .footer_bottom .copyright{font-size: 1.4rem;color: #666;}
 .footer_bottom ul li{float: left;padding-left: 5rem;}
-#footer .footer_bottom ul li:last-of-type a{font-weight: normal;color: rgba(51,51,51,0.5);}
+#footer .footer_bottom ul li:last-of-type a{font-weight: normal;color: rgba(51,51,51,0.8);}
 

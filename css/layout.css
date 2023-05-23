@@ -45,7 +45,7 @@ a{font-weight: 600;text-decoration: none;color: #fff;}
     .content5{position: relative;width: 100%;height: 100vh;background: #333 url(../images/main_contact_bg.jpg) no-repeat 50% 100%;background-size: cover;}
       .content5_inner{position: relative;top: 50%;margin: 0 auto;transform: translateY(-50%);width: 100%;max-width: 1515px;}
         .content5_wrap{width: 50%;max-width: 464px;}
-  #footer{position: relative;width: 100%;padding: 8.8rem 0 3rem;box-sizing: border-box;}
+  #footer{position: relative;width: 100%;padding: 8.8rem 0 3rem;background: #fff;box-sizing: border-box;}
     .footer_inner{width: 100%;max-width: 1760px;margin: 0 auto;}
 
 /* 1820 */
